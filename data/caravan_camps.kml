@@ -1,302 +1,365 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="root_doc">
-<Schema name="camps" id="camps">
-	<SimpleField name="Name" type="string"></SimpleField>
-	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="fid" type="float"></SimpleField>
-	<SimpleField name="IDINDEX" type="int"></SimpleField>
-	<SimpleField name="DATETIME_" type="string"></SimpleField>
-	<SimpleField name="Descript" type="string"></SimpleField>
-	<SimpleField name="auxiliary_storage_labeling_positionx" type="float"></SimpleField>
-	<SimpleField name="auxiliary_storage_labeling_positiony" type="float"></SimpleField>
-</Schema>
-<Folder><name>camps</name>
-  <Placemark id="camps.1">
-	<name>Chancara</name>
-	<description>Camp J17-19</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">1</SimpleData>
-		<SimpleData name="IDINDEX">1706945</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/17</SimpleData>
-		<SimpleData name="Descript">Home base of Fidel Cruz</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9580130001288,-15.1232979995929</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.2">
-	<name>Chancara</name>
-	<description>Camp J17-19</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">1</SimpleData>
-		<SimpleData name="IDINDEX">1706945</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/17</SimpleData>
-		<SimpleData name="Descript">Home base of Fidel Cruz</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9580130001288,-15.1232979995929</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.3">
-	<name>Huarhua</name>
-	<description>Camp J15-16</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">2</SimpleData>
-		<SimpleData name="IDINDEX">1700001</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/17</SimpleData>
-		<SimpleData name="Descript">Salt mining town no road access in 2007</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9643699996353,-15.1874900002083</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.4">
-	<name>Huarhua</name>
-	<description>Camp J15-16</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">2</SimpleData>
-		<SimpleData name="IDINDEX">1700001</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/17</SimpleData>
-		<SimpleData name="Descript">Salt mining town no road access in 2007</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9643699996353,-15.1874900002083</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.5">
-	<name>Jalcachi</name>
-	<description>Camp J21-22</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">3</SimpleData>
-		<SimpleData name="IDINDEX">2205108</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/22</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9850760001835,-14.8267299996837</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.6">
-	<name>Jalcachi</name>
-	<description>Camp J21-22</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">3</SimpleData>
-		<SimpleData name="IDINDEX">2205108</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/22</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9850760001835,-14.8267299996837</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.7">
-	<name>Huanaqmarka Alta
-</name>
-	<description>Camp J22-23</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">4</SimpleData>
-		<SimpleData name="IDINDEX">2300372</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/23</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">700142.300475466</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8369523.15712132</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9979447418621,-14.7193082398215</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.8">
-	<name>Huanaqmarka Alta
-</name>
-	<description>Camp J22-23</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">4</SimpleData>
-		<SimpleData name="IDINDEX">2300372</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/23</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">700142.300475466</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8369523.15712132</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9979447418621,-14.7193082398215</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.9">
-	<name>Yanahuaraja</name>
-	<description>Camp J26-27</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">5</SimpleData>
-		<SimpleData name="IDINDEX">2705358</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/27</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9161399997691,-14.5016100000415</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.10">
-	<name>Yanahuaraja</name>
-	<description>Camp J26-27</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">5</SimpleData>
-		<SimpleData name="IDINDEX">2705358</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/27</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9161399997691,-14.5016100000415</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.11">
-	<name>Chuko Chuko</name>
-	<description>Camp J23-24
-</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">6</SimpleData>
-		<SimpleData name="IDINDEX">2400355</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/24</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9862070001759,-14.5348900002475</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.12">
-	<name>Chuko Chuko</name>
-	<description>Camp J23-24
-</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">6</SimpleData>
-		<SimpleData name="IDINDEX">2400355</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/24</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9862070001759,-14.5348900002475</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.13">
-	<name>Quilcata</name>
-	<description>Camp J20-21</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">7</SimpleData>
-		<SimpleData name="IDINDEX">2500000</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/21</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-73.0116041000004,-14.9658653875026</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.14">
-	<name>Quilcata</name>
-	<description>Camp J20-21</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">7</SimpleData>
-		<SimpleData name="IDINDEX">2500000</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/21</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-73.0116041000004,-14.9658653875026</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.15">
-	<name>Chancahuaña</name>
-	<description>Camp J28-29</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">8</SimpleData>
-		<SimpleData name="IDINDEX">2900756</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/29</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">719702.018451788</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8362128.99114358</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9763380001432,-14.7997999998633</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.16">
-	<name>Chancahuaña</name>
-	<description>Camp J28-29</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">8</SimpleData>
-		<SimpleData name="IDINDEX">2900756</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/29</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">719702.018451788</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8362128.99114358</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9763380001432,-14.7997999998633</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.17">
-	<name>Lancarolla</name>
-	<description>Camp J14-15</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">9</SimpleData>
-		<SimpleData name="IDINDEX">1500063</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/15</SimpleData>
-		<SimpleData name="Descript">Start of caravan near road</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9483100001649,-15.2083899999201</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.18">
-	<name>Lancarolla</name>
-	<description>Camp J14-15</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">9</SimpleData>
-		<SimpleData name="IDINDEX">1500063</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/15</SimpleData>
-		<SimpleData name="Descript">Start of caravan near road</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9483100001649,-15.2083899999201</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.19">
-	<name>Aparuni</name>
-	<description>Camp J27-28</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">10</SimpleData>
-		<SimpleData name="IDINDEX">2800505</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/28</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9236919999578,-14.6190899998921</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.20">
-	<name>Aparuni</name>
-	<description>Camp J27-28</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">10</SimpleData>
-		<SimpleData name="IDINDEX">2800505</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/28</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9236919999578,-14.6190899998921</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.21">
-	<name>Calcauso</name>
-	<description>Camp J24-26</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">11</SimpleData>
-		<SimpleData name="IDINDEX">2600664</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/26</SimpleData>
-		<SimpleData name="Descript">Town in Apurimac with road</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9131365035056,-14.4509562952777</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.22">
-	<name>Calcauso</name>
-	<description>Camp J24-26</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">11</SimpleData>
-		<SimpleData name="IDINDEX">2600664</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/26</SimpleData>
-		<SimpleData name="Descript">Town in Apurimac with road</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9131365035056,-14.4509562952777</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.23">
-	<name>Yanajaja</name>
-	<description>Camp J29-30</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">12</SimpleData>
-		<SimpleData name="IDINDEX">3000156</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/30</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9659650405045,-15.0052749329403</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.24">
-	<name>Yanajaja</name>
-	<description>Camp J29-30</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">12</SimpleData>
-		<SimpleData name="IDINDEX">3000156</SimpleData>
-		<SimpleData name="DATETIME_">2007/07/30</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9659650405045,-15.0052749329403</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.25">
-	<name>Laksa</name>
-	<description>Tadeo Anco</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">13</SimpleData>
-		<SimpleData name="IDINDEX">0</SimpleData>
-		<SimpleData name="DATETIME_">1899/12/30</SimpleData>
-		<SimpleData name="Descript">Home base of Tadeo Ancco</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">712083.54500968</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8323751.56106394</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9733460245676,-15.1475544393377</coordinates></Point>
-  </Placemark>
-  <Placemark id="camps.26">
-	<name>Laksa</name>
-	<description>Tadeo Anco</description>
-	<ExtendedData><SchemaData schemaUrl="#camps">
-		<SimpleData name="fid">13</SimpleData>
-		<SimpleData name="IDINDEX">0</SimpleData>
-		<SimpleData name="DATETIME_">1899/12/30</SimpleData>
-		<SimpleData name="Descript">Home base of Tadeo Ancco</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positionx">712083.54500968</SimpleData>
-		<SimpleData name="auxiliary_storage_labeling_positiony">8323751.56106394</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-72.9733460245676,-15.1475544393377</coordinates></Point>
-  </Placemark>
-</Folder>
-</Document></kml>
+	<name>caravan_camps.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	<Schema name="camps" id="camps">
+		<SimpleField type="string" name="Name">
+		</SimpleField>
+		<SimpleField type="string" name="Description">
+		</SimpleField>
+		<SimpleField type="float" name="fid">
+		</SimpleField>
+		<SimpleField type="int" name="IDINDEX">
+		</SimpleField>
+		<SimpleField type="string" name="DATETIME_">
+		</SimpleField>
+		<SimpleField type="string" name="Descript">
+		</SimpleField>
+		<SimpleField type="float" name="auxiliary_storage_labeling_positionx">
+		</SimpleField>
+		<SimpleField type="float" name="auxiliary_storage_labeling_positiony">
+		</SimpleField>
+	</Schema>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>camps</name>
+		<open>1</open>
+		<Placemark id="camps.1">
+			<name>Chancara</name>
+			<description>Estancia de Fidel Cruz
+julio 17-19</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">1</SimpleData>
+					<SimpleData name="IDINDEX">1706945</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/17</SimpleData>
+					<SimpleData name="Descript">Home base of Fidel Cruz</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9580130001288,-15.1232979995929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.3">
+			<name>Pueblo de Huarhua</name>
+			<description>julio 15-16</description>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">2</SimpleData>
+					<SimpleData name="IDINDEX">1700001</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/17</SimpleData>
+					<SimpleData name="Descript">Salt mining town no road access in 2007</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9643699996353,-15.1874900002083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.6">
+			<name>Jalcachi</name>
+			<description>julio 21-22</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">3</SimpleData>
+					<SimpleData name="IDINDEX">2205108</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/22</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9850760001835,-14.8267299996837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.7">
+			<name>Huanaqmarka Alta</name>
+			<description>julio 22-23</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">4</SimpleData>
+					<SimpleData name="IDINDEX">2300372</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/23</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positionx">700142.300475466</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positiony">8369523.15712132</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9979447418621,-14.7193082398215,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.10">
+			<name>Yanahuaraja</name>
+			<description>julio 26-27</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">5</SimpleData>
+					<SimpleData name="IDINDEX">2705358</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/27</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9161399997691,-14.5016100000415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.12">
+			<name>Chuko Chuko</name>
+			<description>julio 23-24</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">6</SimpleData>
+					<SimpleData name="IDINDEX">2400355</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/24</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9862070001759,-14.5348900002475,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.13">
+			<name>Quilcata</name>
+			<description>julio 20-21</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">7</SimpleData>
+					<SimpleData name="IDINDEX">2500000</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/21</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.0116041000004,-14.9658653875026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.16">
+			<name>Chancahuaña</name>
+			<description>julio 28-29</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">8</SimpleData>
+					<SimpleData name="IDINDEX">2900756</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/29</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positionx">719702.018451788</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positiony">8362128.99114358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9763380001432,-14.7997999998633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.17">
+			<name>Lancarolla</name>
+			<description>julio 14-15</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">9</SimpleData>
+					<SimpleData name="IDINDEX">1500063</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/15</SimpleData>
+					<SimpleData name="Descript">Start of caravan near road</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.94831000016489,-15.2083899999201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.19">
+			<name>Aparuni</name>
+			<description>julio 27-28</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">10</SimpleData>
+					<SimpleData name="IDINDEX">2800505</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/28</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9236919999578,-14.6190899998921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.21">
+			<name>Pueblo de Calcauso</name>
+			<description>julio 24-26</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">11</SimpleData>
+					<SimpleData name="IDINDEX">2600664</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/26</SimpleData>
+					<SimpleData name="Descript">Town in Apurimac with road</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9131365035056,-14.4509562952777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.23">
+			<name>Yanajaja</name>
+			<description>julio 29-30</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">12</SimpleData>
+					<SimpleData name="IDINDEX">3000156</SimpleData>
+					<SimpleData name="DATETIME_">2007/07/30</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9659650405045,-15.0052749329403,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="camps.25">
+			<name>Laksa</name>
+			<description>Estancia de Tadeo Anco</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#camps">
+					<SimpleData name="fid">13</SimpleData>
+					<SimpleData name="IDINDEX">0</SimpleData>
+					<SimpleData name="DATETIME_">1899/12/30</SimpleData>
+					<SimpleData name="Descript">Home base of Tadeo Ancco</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positionx">712083.54500968</SimpleData>
+					<SimpleData name="auxiliary_storage_labeling_positiony">8323751.56106394</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-72.9733460245676,-15.1475544393377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puente</name>
+			<description>Inicio el 14 de julio</description>
+			<LookAt>
+				<longitude>-72.93553603369458</longitude>
+				<latitude>-15.21558153307229</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0430593501643009</heading>
+				<tilt>60.00737735276562</tilt>
+				<range>948.8231294561141</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.93623151909502,-15.21841017657581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mina de Huarhua</name>
+			<description>Mina de sal</description>
+			<LookAt>
+				<longitude>-72.97015197524094</longitude>
+				<latitude>-15.18611207923662</latitude>
+				<altitude>0</altitude>
+				<heading>0.001591290696329527</heading>
+				<tilt>49.13450135482393</tilt>
+				<range>342.6231713579119</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.97123354128065,-15.18542338925471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pueblo de Pampamarca</name>
+			<description>Fin de viaje 30 de julio</description>
+			<LookAt>
+				<longitude>-72.90816229784731</longitude>
+				<latitude>-15.13114806315902</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01627355789251838</heading>
+				<tilt>49.58322753320055</tilt>
+				<range>1623.01394432831</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.90467135855846,-15.12891438800858,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
